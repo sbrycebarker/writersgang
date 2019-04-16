@@ -24,6 +24,12 @@
   opacity: .8;
 }
 
+.info {
+  width: 300px;
+  position: absolute;
+  right: 0;
+}
+
 #hero {
   height: 200px;
   min-width: 100px;
@@ -31,7 +37,12 @@
   margin: 100px auto;
   background-color: #282c34;
   border-radius: 5px;
-  opacity: .9;
+  opacity: .8;
+}
+
+a {
+  color: #61dafb;
+  text-decoration: none; 
 }
 
 .UC {

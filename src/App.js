@@ -6,6 +6,9 @@ class Header extends Component {
     return (
       <header className="App-header">
         <h1>The Writers Gang</h1>
+        <div className="info">
+          <a href="mailto:marullus@mac.com"><h3>marullus@mac.com</h3></a>
+        </div>
       </header>
     )
   }
