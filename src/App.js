@@ -18,7 +18,7 @@ class Hero extends Component {
         <div>
           <h3>Write the Story!</h3>
         </div>
-        <h3>...UNDER CONSTRUCTION...</h3>
+        <h3 className="UC">...UNDER CONSTRUCTION...</h3>
         <a href="mailto:marullus@mac.com">SEND US AN EMAIL</a>
       </div>
     )

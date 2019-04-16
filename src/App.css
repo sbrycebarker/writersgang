@@ -21,16 +21,28 @@
   justify-content: center;
   font-size: calc(10px + .5vmin);
   color: #61dafb;
-  opacity: .8
+  opacity: .8;
 }
 
 #hero {
   height: 200px;
-  width: 400px;
-  font-size: calc(12px + 1vmin);
-  margin: 100px 200px;
+  min-width: 100px;
+  max-width: 90vw;
+  margin: 100px auto;
   background-color: #282c34;
   border-radius: 5px;
+  opacity: .9;
+}
+
+.UC {
+  color: white;
+}
+
+@media only screen and (min-width: 650px) {
+  #hero {
+    max-width: 60vh;
+    margin: 100px 100px;
+  }
 }
 
 /* #content {
