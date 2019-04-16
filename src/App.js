@@ -18,8 +18,7 @@ class Hero extends Component {
         <div>
           <h3>Write the Story!</h3>
         </div>
-        <input placeholder="Email"></input>
-        <button>Submit</button>
+        <div>...UNDER CONSTRUCTION...</div>
       </div>
     )
   }
@@ -29,12 +28,7 @@ class Content extends Component {
   render() {
     return (
       <div id="content">
-        <div class="stuff"></div>
-        <div class="stuff"></div>
-        <div class="stuff"></div>
-        <div class="stuff"></div>
-        <div class="stuff"></div>
-        <div class="stuff"></div>
+        <div></div>
       </div>
     )
   }
